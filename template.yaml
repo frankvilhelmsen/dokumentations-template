@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1beta2
 kind: Template
 metadata:
   name: dokumentations-template
-  title: Dokumentations Template
+  title: UFST Dokumentations Template
   description: Laver et nyt dokumentations project
   tags:
     - recommended
