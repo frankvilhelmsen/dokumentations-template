@@ -44,7 +44,4 @@ spec:
         url: ./skeleton
         values:
           name: '{{ parameters.name }}'
-          description: '{{ parameters.description }}' 
-
-
-
+          description: '{{ parameters.description }}'
