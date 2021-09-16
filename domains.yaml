@@ -1,1 +1,7 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: Udvikling
+  description: Everything
+spec:
+  owner: relations-team
