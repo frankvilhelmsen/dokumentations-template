@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: web
+  name: UdviklerPortal
   description: The place to be, for great
   labels:
     example.com/custom: custom_label_value
