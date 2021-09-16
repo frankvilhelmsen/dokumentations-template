@@ -8,3 +8,4 @@ spec:
     - http://github.com/myorg/myproject/org-data-dump/catalog-info-staff.yaml
     - https://github.com/frankvilhelmsen/dokumentations-template/blob/master/catalog-info-component.yaml
     - https://github.com/frankvilhelmsen/dokumentations-template/blob/master/systems.yaml
+    - https://github.com/frankvilhelmsen/dokumentations-template/blob/master/domains.yaml
