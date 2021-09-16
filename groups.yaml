@@ -4,7 +4,7 @@ metadata:
   name: relations-team
   description: The infra business unit
 spec:
-  type: business-unit
+  type: team
   profile:
     displayName: Infrastructure
     email: infrastructure@example.com
