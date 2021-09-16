@@ -12,3 +12,23 @@ spec:
   parent: ops
   children: [backstage, other]
   members: [frank, lars]
+  
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: frank.vilhelmsen
+spec:
+  profile:
+    email: frankvilhelmse@ufst.dk
+  memberOf: [relations-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lars.nymand
+spec:
+  profile:
+    email: lars-nymand@ufst.dk
+  memberOf: [relations-team]
+  
