@@ -1,21 +1,9 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Location
 metadata:
-  name: web
-  description: The place to be, for great artists
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: web
-    circleci.com/project-slug: github/example-org/artist-website
-  tags:
-    - java
-  links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
+  name: org-data
 spec:
-  type: website
-  lifecycle: production
-  owner: relations-team
-  system: public-websites
+  type: url
+  targets:
+    - http://github.com/myorg/myproject/org-data-dump/catalog-info-staff.yaml
+    - https://github.com/frankvilhelmsen/dokumentations-template/catalog-info-component.yaml
