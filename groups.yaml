@@ -6,7 +6,7 @@ spec:
   type: business-unit
   profile:
     displayName: business-unit 
-  parent: 
+  parent:  ops
   children: [backstage-team]
   members: []
 ---
