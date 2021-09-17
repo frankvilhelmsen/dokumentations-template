@@ -3,5 +3,7 @@ kind: Domain
 metadata:
   name: Tooling
   description: Software Development & Continuous Integration & Continuous Delivery Pipelines
+  tags:
+    - DevOps
 spec:
   owner: backstage-team
