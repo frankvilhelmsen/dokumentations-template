@@ -24,6 +24,7 @@ spec:
     displayName: Infrastructure-team
     email: infrastructure@ufst.dk
   parent: infrastructure
+  children: [backstage, infrastructure-team, other]
   members: [frank, lars]
 ---
 apiVersion: backstage.io/v1alpha1
