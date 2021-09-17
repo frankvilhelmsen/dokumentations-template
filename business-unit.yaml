@@ -8,4 +8,4 @@ spec:
   profile:
     displayName: Udvikling og Forenklingsstyrelsen
   children: [backstage-team]
-  members: []
+  members: [frank, lars, morten]
