@@ -7,5 +7,5 @@ spec:
   type: ops
   profile:
     displayName: Udvikling og Forenklingsstyrelsen
-  children: []
+  children: [backstage-team]
   members: []
