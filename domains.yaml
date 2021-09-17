@@ -4,6 +4,6 @@ metadata:
   name: Tooling
   description: Software Development & Continuous Integration & Continuous Delivery Pipelines
   tags:
-    - DevOps
+    - depops
 spec:
   owner: backstage-team
