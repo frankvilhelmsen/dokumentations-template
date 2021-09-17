@@ -1,18 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: Business-Unit
-spec:
-  type: business-unit
-  profile:
-    displayName: business-unit 
-  parent:  ops
-  children: [backstage-team]
-  members: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
   name: backstage-team
   description: The backstage-team
 spec:
