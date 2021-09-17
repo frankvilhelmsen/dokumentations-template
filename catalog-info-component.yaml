@@ -17,5 +17,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: relations-team
+  owner: infrastructure-team
   system: public-system
