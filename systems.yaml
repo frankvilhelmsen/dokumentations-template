@@ -4,5 +4,5 @@ metadata:
   name: public-system
   description: Handy tools to keep bodyes in the loop
 spec:
-  owner: relations-team
+  owner: infrastructure-team
   domain: tools
