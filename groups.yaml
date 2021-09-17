@@ -1,18 +1,30 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: relations-team
+  name: infrastructure
   description: The infra business unit
 spec:
-  type: team
+  type: business-unit
   profile:
     displayName: Infrastructure
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: ops
-  children: [backstage, other]
+  children: [backstage, infrastructure-team, other]
+  members: [jdoe]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: infrastructure-team
+  description: The infrastructure-team
+spec:
+  type: team
+  profile:
+    displayName: Infrastructure-team
+    email: infrastructure@ufst.dk
+  parent: infrastructure
   members: [frank, lars]
-  
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -20,7 +32,7 @@ metadata:
   name: frank.vilhelmsen
 spec:
   profile:
-    email: frankvilhelmse@ufst.dk
+    email: frank.vilhelmsen@ufst.dk
   memberOf: [relations-team]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -29,6 +41,6 @@ metadata:
   name: lars.nymand
 spec:
   profile:
-    email: lars-nymand@ufst.dk
+    email: lars.jensen@ufst.dk
   memberOf: [relations-team]
   
