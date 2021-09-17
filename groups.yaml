@@ -8,7 +8,7 @@ spec:
   profile:
     displayName: Udvikling Kernefunktionalitet
     email: infrastructure@ufst.dk
-  parent: infrastructure
+  parent: ops 
   children: [backstage, other]
   members: [frank, lars]
 ---
