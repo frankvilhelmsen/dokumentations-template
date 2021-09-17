@@ -4,5 +4,5 @@ metadata:
   name: backstage
   description: An open platform for building developer portals
 spec:
-  owner: infrastructure-team
+  owner: backstage-team
   domain: Tooling

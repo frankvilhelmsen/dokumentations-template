@@ -17,5 +17,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: infrastructure-team
+  owner: backstage-team
   system: backstage

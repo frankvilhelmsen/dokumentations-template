@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: infrastructure-team
-  description: The infrastructure-team
+  name: backstage-team
+  description: The backstage-team
 spec:
   type: team
   profile:
@@ -19,7 +19,7 @@ metadata:
 spec:
   profile:
     email: frank.vilhelmsen@ufst.dk
-  memberOf: [infrastructure-team]
+  memberOf: [backstage-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -28,5 +28,5 @@ metadata:
 spec:
   profile:
     email: lars.jensen@ufst.dk
-  memberOf: [infrastructure-team]
+  memberOf: [backstage-team]
   
