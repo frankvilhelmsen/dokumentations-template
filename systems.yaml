@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: public-system
-  description: Handy tools to keep bodyes in the loop
+  name: backstage
+  description: An open platform for building developer portals
 spec:
   owner: infrastructure-team
-  domain: tools
+  domain: Tooling
