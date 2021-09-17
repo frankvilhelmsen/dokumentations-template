@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: UFST
+  description: Udvikling og Forenklingsstyrelsen
+spec:
+  type: ops
+  profile:
+    displayName: Udvikling og Forenklingsstyrelsen
+  children: []
+  members: []
