@@ -6,7 +6,7 @@ metadata:
 spec:
   type: team
   profile:
-    displayName: Infrastructure-team
+    displayName: Udvikling Kernefunktionalitet
     email: infrastructure@ufst.dk
   parent: infrastructure
   children: [backstage, other]
